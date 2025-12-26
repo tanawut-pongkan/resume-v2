@@ -1,0 +1,122 @@
+import { ResumeData } from './types';
+
+const resumeEn: ResumeData = {
+  locale: 'en',
+  basics: {
+    name: 'TANAWUT PONGKAN',
+    title: 'IT Project Manager',
+    yearsOfExperience: '9+ years',
+    location: 'Mueang Pathum Thani, Pathum Thani, 12000',
+    email: 'tanawut.pongkan@gmail.com',
+    phone: '+6663-446-9426',
+    website: '',
+    linkedin: '',
+    github: '',
+    socials: [
+      { label: 'LinkedIn', href: 'TODO: add LinkedIn URL' },
+      { label: 'GitHub', href: 'TODO: add GitHub URL' },
+      { label: 'Personal Site', href: 'TODO: add personal site' },
+    ],
+  },
+  summary: 'IT Project Manager with 9+ years... TODO: complete summary from the PDF.',
+  highlights: ['TODO: add highlight bullets from PDF'],
+  experiences: [
+    {
+      role: 'IT Project Manager',
+      company: 'AESTIMA ASSET COMPANY LIMITED',
+      location: 'TODO: add location from PDF',
+      period: 'Mar 2022 – Present',
+      description: undefined,
+      responsibilities: ['TODO: add responsibility bullet from PDF'],
+      technologies: [],
+    },
+    {
+      role: 'Senior Developer & System Analyst',
+      company: 'CHUBB INSURANCE (THAILAND)',
+      location: 'TODO: add location from PDF',
+      period: 'Jun 2019 – Feb 2022',
+      description: undefined,
+      responsibilities: ['TODO: add responsibility bullet from PDF'],
+      technologies: [],
+    },
+    {
+      role: 'Developer & System Analyst',
+      company: 'VIRIYAH INSURANCE',
+      location: 'TODO: add location from PDF',
+      period: 'Oct 2018 – May 2019',
+      description: undefined,
+      responsibilities: ['TODO: add responsibility bullet from PDF'],
+      technologies: [],
+    },
+    {
+      role: 'Developer & System Analyst',
+      company: 'V WISE IT COMPANY LIMITED',
+      location: 'TODO: add location from PDF',
+      period: 'Apr 2016 – Sep 2018',
+      description: undefined,
+      responsibilities: ['TODO: add responsibility bullet from PDF'],
+      technologies: [],
+    },
+  ],
+  education: [
+    {
+      degree: 'Bachelor of Computer Engineering',
+      major: 'Computer Engineering',
+      university: 'Bangkok University',
+      location: 'TODO: add location from PDF',
+      period: '2010 – 2014',
+      gpa: '',
+      projects: [
+        {
+          title: 'Head Project: Android Application for Robot Control',
+          description: ['TODO: add project bullet from PDF'],
+        },
+      ],
+    },
+  ],
+  skills: {
+    raw: ['TODO: add skills from PDF'],
+    projectManagement: ['TODO'],
+    itStrategyAndRisk: ['TODO'],
+    softwareDevelopment: ['TODO'],
+    dataAnalyticsAndAutomation: ['TODO'],
+    cloudAndApi: ['TODO'],
+    leadershipAndCommunication: ['TODO'],
+  },
+  projects: [
+    {
+      name: 'TODO: Project name',
+      role: 'TODO',
+      period: 'TODO',
+      description: 'TODO: add placeholder project description',
+      impact: ['TODO: describe outcome/impact'],
+      technologies: ['TODO'],
+      links: [{ label: 'TODO: link', href: '#' }],
+    },
+    {
+      name: 'TODO: Project name',
+      role: 'TODO',
+      period: 'TODO',
+      description: 'TODO: add placeholder project description',
+      impact: ['TODO: describe outcome/impact'],
+      technologies: ['TODO'],
+      links: [{ label: 'TODO: link', href: '#' }],
+    },
+    {
+      name: 'TODO: Project name',
+      role: 'TODO',
+      period: 'TODO',
+      description: 'TODO: add placeholder project description',
+      impact: ['TODO: describe outcome/impact'],
+      technologies: ['TODO'],
+      links: [{ label: 'TODO: link', href: '#' }],
+    },
+  ],
+  certifications: [{ name: 'TODO: add certification or remove placeholder', issuer: '', year: '' }],
+  achievements: ['TODO: add achievements'],
+  languages: [
+    { language: 'TODO: language', level: 'TODO: proficiency' },
+  ],
+};
+
+export default resumeEn;
